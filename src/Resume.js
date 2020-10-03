@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Document, Page, pdfjs} from 'react-pdf';
 import {Link} from 'react-router-dom';
-import File from './Resume.pdf';
+import File from './CS2020RESUME.pdf';
 class Resume extends Component {
     constructor(props){
         super(props);

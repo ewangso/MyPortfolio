@@ -9,8 +9,7 @@ import './index.css';
 import Jumbotron from './Jumbotron';
 import Project from './Project';
 import projectData from './projectData';
-import Resume from './Resume';
-import File from './Resume.pdf';
+import File from './CS2020RESUME.pdf';
 
 function Navbar(){
     

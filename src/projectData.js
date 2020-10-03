@@ -16,7 +16,7 @@ export default[
         +"New Jersey Institute of Technology. The main goal for this project now is to present it at the Fall 2020 "
         +"Undergraduate Research and Innovation (URI) Seed Program. "
         ,
-        source: "https://git.njit.edu/ew84/MedicalOntologyProject"
+        source: "https://github.com/ewangso/MedicalOntology"
     },
     {
         id: 2,

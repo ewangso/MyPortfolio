@@ -9,13 +9,11 @@ import './index.css';
 import Jumbotron from './Jumbotron';
 import Project from './Project';
 import projectData from './projectData';
-import File from './CS2020RESUME.pdf';
+import File from './21_Resume.pdf';
 
 function Navbar(){
-    
     return(
         <div>
-            
             <nav class="navbar navbar-default navbar-expand-lg bg-white navbar-light fixed-top">
             <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,11 +30,6 @@ function Navbar(){
                     <li class="nav-item">
                         <Link class="text-dark" to="/projects">Projects</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link to={File} target='_blank' class="text-dark">
-                            Resume
-                        </Link>
-                    </li>
                 </ul>
             </div>
             </nav>
@@ -48,28 +41,24 @@ function Navbar(){
                 <Route path="/projects" exact component={Projects} />
                 <Route path="/projects/:project" component={Proj}/>
             </Switch>
-            
-            
         </div>
-
-
     );
 }
 
 const Proj = ({match, location}) => {
-    
-    const { params: {project} } = match;
+    console.log("Match: " + match);
+    console.log("Location: " + location);
+    const proj = match.params.project;
     return (
     <>
         <div class="infoCard">
-
             <p>
-                <strong><p class="display-4">{projectData[project - 1].title}</p></strong><br></br>
+                <strong><p class="display-4">{projectData[proj - 1].title}</p></strong><br></br>
             </p>
 
-            <p class="display-6">{projectData[project - 1].description} </p>
+            <p class="display-6">{projectData[proj - 1].description} </p>
 
-            <a href={projectData[project - 1].source}class="btn btn-outline-success">
+            <a href={projectData[proj - 1].source}class="btn btn-outline-success" target="_blank">
                 View Repository
             </a>
             <br></br>
@@ -79,7 +68,6 @@ const Proj = ({match, location}) => {
             <Link to={`/projects`}>
                 &#8592;Back To Projects
             </Link>
-
         </div>
     </>
     );

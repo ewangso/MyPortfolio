@@ -12,28 +12,20 @@ class Projects extends React.Component{
         );
 
         console.log(this.props);
-        
-
+    
         return(
             <div>
-                <div class="row projectsContent">
-                {projects}
-
-                <br></br>
-                
+                <div class="row container">
+                    {projects}
+                    <br></br>
                 </div>
-                <Footer />
+                <div class="container-fluid-sm">
+                    <Footer />
+                </div>
             </div>
-            
         );
-
-        
-
     }
 }
-
-
-
 
 
 export default Projects;

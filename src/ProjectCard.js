@@ -4,7 +4,6 @@ import { unstable_renderSubtreeIntoContainer } from "react-dom";
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import projectData from './projectData';
 class ProjectCard extends React.Component{
-    
     constructor(){
         super();
     }
@@ -19,18 +18,15 @@ class ProjectCard extends React.Component{
                 <br></br>
                 <br></br>
 
-                <a class="btn btn-outline-success">
+                <a class="btn btn-outline-success" target="_blank">
                     <Link to={`/projects/${this.props.projID}`} className="link">
                         Details
                     </Link>
                 </a>
 
-                <a href={this.props.source}class="btn btn-outline-success">
+                <a href={this.props.source}class="btn btn-outline-success" target="_blank">
                     Source
                 </a>
-
-                
-
             </div>
         </div>
         );

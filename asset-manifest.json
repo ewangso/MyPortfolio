@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04ec7b99.chunk.css",
+    "main.js": "/static/js/main.8d54ad74.chunk.js",
+    "main.js.map": "/static/js/main.8d54ad74.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.21e4bbbf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.21e4bbbf.js.map",
+    "static/js/2.a4dd7098.chunk.js": "/static/js/2.a4dd7098.chunk.js",
+    "static/js/2.a4dd7098.chunk.js.map": "/static/js/2.a4dd7098.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bbc4b80ab691447ea6b347dca1fe16d3.js": "/precache-manifest.bbc4b80ab691447ea6b347dca1fe16d3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.04ec7b99.chunk.css.map": "/static/css/main.04ec7b99.chunk.css.map",
+    "static/js/2.a4dd7098.chunk.js.LICENSE.txt": "/static/js/2.a4dd7098.chunk.js.LICENSE.txt",
+    "static/media/21_Resume.pdf": "/static/media/21_Resume.648c029d.pdf",
+    "static/media/CS2020RESUME.pdf": "/static/media/CS2020RESUME.a450be35.pdf",
+    "static/media/MedOntology.png": "/static/media/MedOntology.28fd4fb0.png",
+    "static/media/Twitter-Logo.png": "/static/media/Twitter-Logo.14228c7a.png",
+    "static/media/coding.jpeg": "/static/media/coding.5b168f42.jpeg",
+    "static/media/computerdesk.jpg": "/static/media/computerdesk.d8cd809c.jpg",
+    "static/media/facebook.png": "/static/media/facebook.e4700f80.png",
+    "static/media/flashcards.jpg": "/static/media/flashcards.c5c3769f.jpg",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/map.jpg": "/static/media/map.35cd9cd4.jpg",
+    "static/media/njit.png": "/static/media/njit.36743b18.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21e4bbbf.js",
+    "static/js/2.a4dd7098.chunk.js",
+    "static/css/main.04ec7b99.chunk.css",
+    "static/js/main.8d54ad74.chunk.js"
+  ]
+}

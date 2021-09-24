@@ -11,7 +11,7 @@ function Main(){
                 <h1 class="display-4 text-center card-title">Introduction</h1>
                 <p class="display-5 text-left indent">
                     Hello, my name is Ethan Wang-So. 
-                    I am a student, programmer, and web designer. I am currently a second year student,
+                    I am a student, programmer, and web designer. I am currently a third-year student,
                     majoring in Computer Science, at the New Jersey Institute of Technology.
                     <br></br><br></br>
                 </p>
@@ -109,8 +109,7 @@ function Main(){
                         <p class="workDesc">
                         <u>Research & Development Intern</u><br></br>
                         <i>March 2021 - August 2021</i> <br></br>
-                        I developed Android applications for the research team. I also did research
-                        on various ways mobile devices can be used to estimate UV exposure. 
+                        I developed Android applications for the Research and Development team. 
                         </p>
 
                         <strong>New Jersey Institute of Technology</strong><br></br>

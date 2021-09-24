@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.04ec7b99.chunk.css",
-    "main.js": "/static/js/main.8d54ad74.chunk.js",
-    "main.js.map": "/static/js/main.8d54ad74.chunk.js.map",
+    "main.js": "/static/js/main.692c683d.chunk.js",
+    "main.js.map": "/static/js/main.692c683d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.21e4bbbf.js",
     "runtime-main.js.map": "/static/js/runtime-main.21e4bbbf.js.map",
-    "static/js/2.a4dd7098.chunk.js": "/static/js/2.a4dd7098.chunk.js",
-    "static/js/2.a4dd7098.chunk.js.map": "/static/js/2.a4dd7098.chunk.js.map",
+    "static/js/2.8d8bca60.chunk.js": "/static/js/2.8d8bca60.chunk.js",
+    "static/js/2.8d8bca60.chunk.js.map": "/static/js/2.8d8bca60.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bbc4b80ab691447ea6b347dca1fe16d3.js": "/precache-manifest.bbc4b80ab691447ea6b347dca1fe16d3.js",
+    "precache-manifest.8d53b8ff1ef1a746b6ae9dbf51af15ef.js": "/precache-manifest.8d53b8ff1ef1a746b6ae9dbf51af15ef.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.04ec7b99.chunk.css.map": "/static/css/main.04ec7b99.chunk.css.map",
-    "static/js/2.a4dd7098.chunk.js.LICENSE.txt": "/static/js/2.a4dd7098.chunk.js.LICENSE.txt",
+    "static/js/2.8d8bca60.chunk.js.LICENSE.txt": "/static/js/2.8d8bca60.chunk.js.LICENSE.txt",
     "static/media/21_Resume.pdf": "/static/media/21_Resume.648c029d.pdf",
     "static/media/CS2020RESUME.pdf": "/static/media/CS2020RESUME.a450be35.pdf",
     "static/media/MedOntology.png": "/static/media/MedOntology.28fd4fb0.png",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.21e4bbbf.js",
-    "static/js/2.a4dd7098.chunk.js",
+    "static/js/2.8d8bca60.chunk.js",
     "static/css/main.04ec7b99.chunk.css",
-    "static/js/main.8d54ad74.chunk.js"
+    "static/js/main.692c683d.chunk.js"
   ]
 }
